@@ -103,12 +103,11 @@ p {
 	top: 0;
 	left: 0;
 	width: 100%;
-    min-height: 100%;
     height: 600px;
   }
 
   .arg {
-    margin-top: 7%;
+    margin-top: 12%;
     margin-left: 5%;
 
 }

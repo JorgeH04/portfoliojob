@@ -97,6 +97,11 @@ p {
 
 /*HEADER*/
 
+.arg {
+    margin-left: 19%;
+
+}
+
 .header {
     
     height: 600px;

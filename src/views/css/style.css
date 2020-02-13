@@ -113,9 +113,10 @@ p {
 
 .header img {
 
-    height: 350px;
-    width: 450px;
-    margin: 70px 0 0 40px;
+    height: 250px;
+    width: 350px;
+    margin: 70px 0 40px;
+    margin-left: 29%;
 }
 
 .header h1 {

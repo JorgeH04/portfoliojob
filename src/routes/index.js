@@ -35,7 +35,13 @@ router.get('/proyectoseis', (req, res, next) => {
   res.render('proyectos/proyectoseis');
 });
 
+router.get('/proyectosiete', (req, res, next) => {
+  res.render('proyectos/proyectosiete');
+});
 
+router.get('/proyectoocho', (req, res, next) => {
+  res.render('proyectos/proyectoocho');
+});
 
 
 
@@ -69,6 +75,9 @@ router.get('/projectseven', (req, res, next) => {
   res.render('projects/projectseven');
 });
 
+router.get('/projecteight', (req, res, next) => {
+  res.render('projects/projecteight');
+});
 
 
 

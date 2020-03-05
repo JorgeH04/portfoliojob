@@ -1,5 +1,4 @@
 const path = require('path');
-const morgan = require('morgan');
 const exphbs = require('express-handlebars');
 const express = require('express');
 const app = express();
@@ -24,7 +23,6 @@ app.set('view engine', '.hbs');
 
 
 //middlewares
-app.use(morgan('dev'));
 app.use(express.urlencoded({extended: false}));
 
 app.use(express.static(path.join(__dirname, 'views')));

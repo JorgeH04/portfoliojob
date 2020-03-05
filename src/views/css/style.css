@@ -762,23 +762,13 @@ p {
 
 
 
-/* Map */
-.map {
-    height: 790px;
-  }
-  
-  @media (max-width: 992px) {
-    .map {
-      height: 75%;
-    }
-  }
-  
-  .map iframe {
-    pointer-events: none;
-  }
-    
+#contactt{
+    height: 1790px;
+}
   
 
+ 
+    
 
 
 

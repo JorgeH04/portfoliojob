@@ -43,6 +43,13 @@ router.get('/proyectoocho', (req, res, next) => {
   res.render('proyectos/proyectoocho');
 });
 
+router.get('/proyectonueve', (req, res, next) => {
+  res.render('proyectos/proyectonueve');
+});
+
+router.get('/proyectodiez', (req, res, next) => {
+  res.render('proyectos/proyectodiez');
+});
 
 
 
@@ -78,6 +85,16 @@ router.get('/projectseven', (req, res, next) => {
 router.get('/projecteight', (req, res, next) => {
   res.render('projects/projecteight');
 });
+
+router.get('/projectnine', (req, res, next) => {
+  res.render('projects/projectnine');
+});
+
+router.get('/projectten', (req, res, next) => {
+  res.render('projects/projectten');
+});
+
+
 
 
 

@@ -51,6 +51,10 @@ router.get('/proyectodiez', (req, res, next) => {
   res.render('proyectos/proyectodiez');
 });
 
+router.get('/proyectoonce', (req, res, next) => {
+  res.render('proyectos/proyectoonce');
+});
+
 
 
 
@@ -94,7 +98,9 @@ router.get('/projectten', (req, res, next) => {
   res.render('projects/projectten');
 });
 
-
+router.get('/projecteleven', (req, res, next) => {
+  res.render('projects/projecteleven');
+});
 
 
 
